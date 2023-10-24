@@ -1,0 +1,16 @@
+---
+- summary: |
+    Проверка возможности поиска товаров по категориям
+  status: fail
+
+- summary: |
+    Проверка фильтра по цене.
+  status: pass
+ 
+- summary: |
+    Проверка чек-бокса In Stock.
+  status: pass
+
+- summary: |
+    Проверка отображения мобильной версии сайта.
+  status: fail
