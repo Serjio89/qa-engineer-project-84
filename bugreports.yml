@@ -1,0 +1,27 @@
+---
+- summary: |
+    Проверка  поиска товара по категории.
+  environment: |
+    Яндекс Браузер Версия 23.9.2.888 (64-bit)
+    ОС Windows 10 Домашняя для одного языка 19045.3570
+  steps-to-reproduce: |
+    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    2. В поле "Search" ввести "smartphones"
+  expected-result: |
+    Должны быть найдены товары из категории "smartphones"
+  actual-result: |
+    Товары не найдены."Nothing found!"
+
+- summary: |
+    Проверка отображения мобильной версии сайта.
+  environment: |
+    Яндекс Браузер Версия 23.9.2.888 (64-bit)
+    ОС Windows 10 Домашняя для одного языка 19045.3570
+  steps-to-reproduce: |
+    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    2. Нажимаем ПКМ и выбираем отображение мобильной версии сайта
+  expected-result: |
+    Корректное отображение мобильной версии сайта
+  actual-result: |
+    Мобильная версия сайта отображается некорректно
+
